@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --main-color: #050533;
+    --secundary: #00C6D2;
+    --alternative: #FF2768;
+    --cream: #FFFADE;
+}
+html {
+font-size: 62.5%;
+}
+main{
+    background-color: var(--main-color);
+}
+.nav{
+    display: flex;
+    justify-content: end;
+}
+.nav__circle{
+    height: 5.0rem;
+    width: 5.0rem;
+    border-radius: 50%;
+    background-color: var(--secundary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 2rem 0 0;
+}
+.nav__circle__hamburguer{
+    height: 3.0rem;
+    width: 3.0rem;
+}
