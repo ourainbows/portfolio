@@ -137,7 +137,7 @@ header {
 }
 .about p {
   font-size: 2rem;
-  padding-bottom: 200px;
+  padding-bottom: 30px;
 }
 
 .tech {
@@ -148,9 +148,16 @@ header {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  max-width: 1200px;
   flex-wrap: wrap;
   z-index: 1;
+}
+.tech::after {
+  position: absolute;
+  content: "";
+  height: 150px;
+  width: 100%;
+  background-color: var(--secundary);
+  z-index: -1;
 }
 .tech__card {
   top: 5px;
@@ -168,42 +175,35 @@ header {
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(30px);
 }
 
 .tech__card__content {
-  padding: 20px;
   transform: translateY(100px);
   opacity: 0;
   transition: 0.5s;
 }
+.card__icons{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .tech__card:hover .tech__card__content {
   transform: translateY(0px);
   opacity: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.tech__card__content h2 {
-  position: absolute;
-  top: -20px;
-  right: 30px;
-  font-size: 8rem;
-  color: rgba(255, 255, 255, 0.05);
-  pointer-events: none; /* No muestra el cursor */
-}
+
 .tech__card__content h3 {
+  font-family: "Montserrat";
   font-size: 3rem;
   z-index: 1;
 }
 .tech__card__content p {
   font-size: 1.6rem;
-}
-.tech__card__content a {
-  position: relative;
-  display: inline-block;
-  padding: 8px 20px;
-  margin-top: 15px;
-  background: #ffff;
-  color: #050533;
-  border-radius: 20px;
-  text-decoration: none;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
