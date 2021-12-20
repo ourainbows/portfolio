@@ -2,7 +2,7 @@
   position: sticky;
   top: 1.6rem;
   right: 1rem;
-  z-index: 2;
+  z-index: 200;
 }
 .toggler {
   position: absolute;
@@ -12,7 +12,7 @@
   height: 4rem;
   border-radius: 50%;
   opacity: 0;
-  z-index: 3;
+  z-index: 300;
   cursor: pointer;
 }
 .hamburger {
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 200;
 }
 .hamburger > div {
   position: absolute;
@@ -120,4 +120,7 @@
 }
 .nav__container > div > div > ul > li > a:hover {
   color: var(--secundary);
+}
+.nav__container > div > div > ul > li{
+    list-style: none;
 }

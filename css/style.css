@@ -18,8 +18,12 @@
 html {
   font-size: 62.5%;
 }
-main{
+h1, h2, h3{
+  font-family: Adumu;
+}
+header{
   background-color: var(--main-color);
+  color: #FFFF;
 }
 
 .icon__circle {
@@ -33,16 +37,13 @@ main{
 }
 .title {
   margin-left: 1.6rem;
-  padding-top: 47vh;
-  color: white;
+  padding-top: 50vh;
   font-size: 2rem;
 }
 .title h1 {
-  font-family: Adumu;
   font-size: 6rem;
 }
 .title h2 {
-  font-family: Adumu;
   font-size: 4.5rem;
 }
 .icons {
@@ -79,28 +80,28 @@ main{
 }
 .wave1 {
   animation: animate 30s linear infinite;
-  z-index: 1000;
+  z-index: 100;
   opacity: 1;
   animation-delay: 0s;
   bottom: 0;
 }
 .wave2 {
   animation: animate2 15s linear infinite;
-  z-index: 999;
+  z-index: 99;
   opacity: 0.5;
   animation-delay: -5s;
   bottom: 10px;
 }
 .wave3 {
   animation: animate 30s linear infinite;
-  z-index: 998;
+  z-index: 98;
   opacity: 0.2;
   animation-delay: -2s;
   bottom: 15px;
 }
 .wave4 {
   animation: animate2 5s linear infinite;
-  z-index: 997;
+  z-index: 97;
   opacity: 0.7;
   animation-delay: -5s;
   bottom: 20px;
@@ -120,4 +121,17 @@ main{
   100% {
     background-position-x: 1000px;
   }
+}
+
+.about{
+  color: #FFFF;
+  background-color: var(--secundary);
+  padding: 1.6rem;
+}
+.about h2{
+  font-size: 4.0rem;
+  padding-bottom: 30px;
+}
+.about p{
+  font-size: 2.0rem;
 }
