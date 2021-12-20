@@ -1,27 +1,88 @@
 <!DOCTYPE html>
-<htmL lang="es">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="description" content="Portfolio and web page of Juan Casas, a Fronted developer"/>
-        <meta name="robots" content="index,follow"/>
-        <title>Portfolio | Juan Casas</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
-    </head>
-    <body>
-        <main>
-            <nav class="nav">
-                <div class="nav__circle">
-                    <img class="nav__circle__hamburguer" src="./assets/hamburguer-menu.svg " alt="hamburguer menu">
-                </div>
-            </nav>
-            <section class="main__section">
-                <div class="main__section__wave wave1"></div>
-                <div class="main__section__wave wave2"></div>
-                <div class="main__section__wave wave3"></div>
-                <div class="main__section__wave wave4"></div>
-            </section>
-        </main>
-    </body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Portfolio and web page of Juan Casas, a Fronted developer"
+    />
+    <meta name="robots" content="index,follow" />
+    <title>Portfolio | Juan Casas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+<!--       <nav class="nav">
+        <div class="nav__circle">
+          <img
+            class="nav__circle__hamburguer"
+            src="./assets/hamburguer-menu.svg "
+            alt="hamburguer menu"
+          />
+        </div>
+      </nav> -->
+    <div class="menu__container">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger">
+        <!-- Hamburguer menu -->
+        <div></div>
+      </div>
+      <nav class="nav__container">
+        <div>
+          <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Technologies</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+	</div>
+        <div class="title">
+          <h1>Hi there,</h1>
+          <h2>I'm Juan Casas</h2>
+          <span>I' am Frontend Developer</span>
+        </div>
+        <div class="icons">
+          <div class="icon__circle">
+            <a href="https://github.com/ourainbows"><img src="./assets/github.svg" alt="github icon" /></a>
+            
+          </div>
+          <div class="icon__circle">
+            <a href="https://www.linkedin.com/in/juan-casas-20316a19b/">
+              <img src="./assets/linkedin.svg" alt="linkeidn icon" />
+            </a>
+          </div>
+          <div class="icon__circle">
+            <a href="https://twitter.com/home">
+              <img src="./assets/twitter.svg" alt="twitter icon" />
+            </a>
+          </div>
+          <div class="icon__circle">
+            <a href="#conta">
+              <img src="./assets/gmail.svg" alt="gmail icon " />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="main__section">
+        <div class="main__section__wave wave1"></div>
+        <div class="main__section__wave wave2"></div>
+        <div class="main__section__wave wave3"></div>
+        <div class="main__section__wave wave4"></div>
+      </section>
+    </main>
+</body>
 </html>
