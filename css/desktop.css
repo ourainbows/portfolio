@@ -55,6 +55,7 @@
 }
 .tech__card__content p {
     font-size: 1.6rem;
+    padding: 0 1.6rem;
 }
 .projects h2 {
     font-size: 4.5rem;
@@ -66,8 +67,12 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.project__container img {
+.project__container__a{
     width: 47%;
+    height: 25vw;
+}
+.project__container__img{
+    width: 100%;
     height: 25vw;
 }
 .people{
