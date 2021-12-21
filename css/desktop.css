@@ -78,6 +78,13 @@
 .people{
     height: 80rem;
 }
+.people__p{
+    padding: 0 8.0rem;
+}
+.people .dot{
+  height: 9rem;
+  width: 9rem;
+}
 footer input,
 footer textarea {
   width: 65%;

@@ -272,9 +272,12 @@ header {
   align-items: center;
   justify-content: start;
   font-size: 1.8rem;
-  height: 60rem;
+  height: 70rem;
 /*   padding-bottom: 50rem; */
   position: relative;
+}
+.people__p{
+    padding: 0 1.6rem;
 }
 .people div h2 {
   font-family: "Montserrat";
