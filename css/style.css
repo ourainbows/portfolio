@@ -133,6 +133,9 @@ header {
   padding: 1.6rem;
   text-align: justify;
 }
+.about__computer{
+  display: none;
+}
 .about h2 {
   font-size: 4rem;
   padding-bottom: 30px;
@@ -157,7 +160,7 @@ header {
 .tech::after {
   position: absolute;
   content: "";
-  height: 150px;
+  height: 15.0rem;
   width: 100%;
   background-color: var(--secundary);
   z-index: -1;
@@ -331,7 +334,7 @@ footer button {
   height: 3rem;
   width: 70%;
   border: none;
-  border-radius: 13px;
+  border-radius: 8px;
   background-color: var(--secundary);
   color: #ffff;
   font-size: 1.8rem;

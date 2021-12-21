@@ -9,13 +9,14 @@
   align-items: center;
   justify-content: space-between;
 }
-.header__container__div{
-    display: block;
-    padding-right: 9.0rem;
+.header__container__div {
+  display: block;
+  padding-right: 9rem;
 }
 .header__container__bulb {
-    width: 30rem;
+  width: 40rem;
 }
+
 .title {
   padding-top: 0;
 }
@@ -25,6 +26,69 @@
 .title h2 {
   font-size: 6.5rem;
 }
-.tittle span{
-    font-size: 2.4rem;
+.tittle span {
+  font-size: 2.4rem;
+}
+.about h2 {
+    font-size: 6rem;
+    padding-bottom: 0;
+}
+.about__container {
+  display: flex;
+  align-items: center;
+  padding-right: 3rem;
+}
+.about__computer {
+  display: block;
+}
+.tech::after {
+  height: 10.0rem;
+    top: 0;
+}
+.tech {
+  flex-direction: row;
+  justify-content: center
+}
+.tech__card {
+  width: 30%;
+  height: 30vw;
+}
+.tech__card__content p {
+    font-size: 1.6rem;
+}
+.projects h2 {
+    font-size: 4.5rem;
+    padding-top: 0;
+    padding-bottom: 4.5rem;
+}
+.project__container{
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project__container img {
+    width: 47%;
+    height: 25vw;
+}
+.people{
+    height: 80rem;
+}
+footer input,
+footer textarea {
+  width: 65%;
+}
+footer button{
+    width: 40%;
+}
+footer form {
+    padding: 0 0 1.6rem 1.6rem
+}
+footer textarea {
+    height: 20rem;
+}
+footer input {
+    height: 4rem;
+}
+footer input, footer textarea {
+    margin-bottom: 2rem;
 }
