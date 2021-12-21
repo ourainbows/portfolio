@@ -7,9 +7,11 @@
       content="Portfolio and web page of Juan Casas, a Fronted developer"
     />
     <meta name="robots" content="index,follow" />
-    <title>Portfolio | Juan Casas</title>
+    <title>Portfolio|Juan Casas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <LINK rel="stylesheet" MEDIA="(min-width: 1024px)" href="./css/desktop.css">
+
     <link rel="stylesheet" href="./css/menu.css" />
     <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +21,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body  id="home">
     <div class="menu__container">
       <input type="checkbox" class="toggler">
       <div class="hamburger">
@@ -30,45 +32,52 @@
         <div>
           <div>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Technologies</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#id">About</a></li>
+              <li><a href="#tech">Technologies</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </nav>
 	  </div>
     <header>
-        <div class="title">
-          <h1>Hi there,</h1>
-          <h2>I'm Juan Casas</h2>
-          <span>I' am Frontend Developer</span>
+      <div class="header__container">
+        <div>
+          <div class="title">
+            <h1>Hi there,</h1>
+            <h2>I'm Juan Casas</h2>
+            <span>I' am Frontend Developer</span>
+          </div>
+          <div class="icons">
+            <div class="icon__circle">
+              <a href="https://github.com/ourainbows"><img src="./assets/github.svg" alt="github icon" /></a>
+              
+            </div>
+            <div class="icon__circle">
+              <a href="https://www.linkedin.com/in/juan-casas-20316a19b/">
+                <img src="./assets/linkedin.svg" alt="linkeidn icon" />
+              </a>
+            </div>
+            <div class="icon__circle">
+              <a href="https://twitter.com/home">
+                <img src="./assets/twitter.svg" alt="twitter icon" />
+              </a>
+            </div>
+            <div class="icon__circle">
+              <a href="#conta">
+                <img src="./assets/gmail.svg" alt="gmail icon " />
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="icons">
-          <div class="icon__circle">
-            <a href="https://github.com/ourainbows"><img src="./assets/github.svg" alt="github icon" /></a>
-            
-          </div>
-          <div class="icon__circle">
-            <a href="https://www.linkedin.com/in/juan-casas-20316a19b/">
-              <img src="./assets/linkedin.svg" alt="linkeidn icon" />
-            </a>
-          </div>
-          <div class="icon__circle">
-            <a href="https://twitter.com/home">
-              <img src="./assets/twitter.svg" alt="twitter icon" />
-            </a>
-          </div>
-          <div class="icon__circle">
-            <a href="#conta">
-              <img src="./assets/gmail.svg" alt="gmail icon " />
-            </a>
-          </div>
+        <div class="header__container__div">
+          <img class="header__container__bulb" src="./assets/bulb.svg" alt="">
         </div>
+      </div>
       </section>
-      <section class="main__section">
+      <section  class="main__section">
         <div class="main__section__wave wave1"></div>
         <div class="main__section__wave wave2"></div>
         <div class="main__section__wave wave3"></div>
@@ -76,12 +85,12 @@
       </section>
     </header>
     <main>
-      <section class="about">
-        <h2>About me...</h2>
+      <section id="id" class="about">
+        <h2 >About me...</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, vitae incidunt quia dignissimos esse non eos deleniti distinctio, voluptates dicta assumenda! Pariatur veritatis minus veniam quos modi corporis corrupti? Placeat.
         Alias expedita ad ipsam reprehenderit aperiam incidunt ab tempore dolorum cumque? Ipsam quas quidem dolor ex, perferendis illum voluptate provident, nulla, error natus modi! Explicabo sed perspiciatis velit animi sequi.</p>
       </section>
-      <section class="tech">
+      <section class="tech" id="tech">
         <div class="tech__card">
           <div class="tech__card__content">
             <div>
@@ -137,18 +146,24 @@
           </div>
         </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="projects__wave">
               <img src="./assets/wavesNegative.svg" alt="">
         </div>
         <h2>Projects</h2>
-        <div class="project__container">
+        <div class="project__container">  
+<!--             <div>
+              <h3>Others</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button>View</button>
+            </div> -->
+  -->
             <img src="./assets/projects/project1.png" alt="">
             <img src="./assets/projects/project2.png" alt="">
             <img src="./assets/projects/project3.png" alt="">
-            <a href="www.google.com">
-              <img src="./assets/projects/project4.png" alt="">
-            </a>
+            <img src="./assets/projects/project4.png" alt="">
         </div>
       </section>
       <section class="people">
@@ -158,21 +173,16 @@
         </div>
         <div class="dot"></div>
         <p>
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, at?"
+          ""Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fuga dicta adipisci."
         </p>
         <span>
           <span><b>Name Second Name</b></span><br>
           <span>Your Work</span>
         </span>
-        
         <img  class="people__wave" src="./assets/footer_water.svg" alt="">
       </section>
     </main>
-    <footer>
-      <!-- <div class="footer__wave">
-              <img src="./assets/footer-wave.svg" alt="">
-      </div> -->
-
+    <footer id="contact">
       <form action="">
         <input type="text" placeholder="Your name">
         <input type="email" placeholder="Your email">

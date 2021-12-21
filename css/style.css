@@ -27,7 +27,9 @@ header {
   background-color: var(--main-color);
   color: #ffff;
 }
-
+.header__container__div{
+  display: none;
+}
 .icon__circle {
   height: 5rem;
   width: 5rem;
@@ -227,17 +229,32 @@ header {
   flex-direction: column;
   padding: 2rem 1.6rem 3rem 1.6rem;
 }
+/* .project__container div{
+  background-image: url(../assets/projects/project1.png);
+  width: 100%;
+  height: 50vw;
+  border-radius: 21px;
+  margin-bottom: 2.1rem;
+  box-shadow: 5px 5px 10px var(--main-color);
+  border-top: 2px solid rgba(255, 255, 255, 0.966);
+  border-left: 2px solid rgba(255, 255, 255, 0.966);
+  object-fit:fill; 
+  background-size: cover;
+
+}
+ */
+
 .project__container img {
   background-color: var(--main-color);
   width: 100%;
   height: 50vw;
   border-radius: 21px;
   margin-bottom: 2.1rem;
-  /* object-fit:fill;  */
   box-shadow: 5px 5px 10px var(--main-color);
   border-top: 2px solid rgba(255, 255, 255, 0.966);
   border-left: 2px solid rgba(255, 255, 255, 0.966);
 }
+
 
 .people {
   background-color: var(--secundary);
@@ -247,15 +264,18 @@ header {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: start;
   font-size: 1.8rem;
-  height: 40rem;
-  padding-bottom: 50rem;
+  height: 60rem;
+/*   padding-bottom: 50rem; */
   position: relative;
 }
 .people div h2 {
   font-family: "Montserrat";
   font-size: 4rem;
+}
+.people span{
+  margin: 2.0rem 0;
 }
 .people div span {
   font-style: oblique;
@@ -264,6 +284,7 @@ header {
 .people .dot {
   height: 5rem;
   width: 5rem;
+  margin: 1.6rem;
   border-radius: 50%;
   background-color: var(--main-color);
 }
@@ -271,11 +292,6 @@ header {
   position: absolute;
   width: 100%;
   bottom: 0;
-}
-.people__logo {
-  position: absolute;
-  bottom: 3rem;
-  width: 100%;
 }
 footer {
   background-color: var(--main-color);
@@ -297,7 +313,6 @@ footer textarea {
   border: none;
   border-radius: 6px;
   margin-bottom: 1rem;
-  z-index: 3;
 }
 footer input {
   height: 3rem;
@@ -314,11 +329,12 @@ footer textarea::placeholder {
 }
 footer button {
   height: 3rem;
-  width: 80%;
+  width: 70%;
   border: none;
   border-radius: 13px;
   background-color: var(--secundary);
   color: #ffff;
+  font-size: 1.8rem;
 }
 footer div {
   text-align: center;
