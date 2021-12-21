@@ -1,0 +1,30 @@
+/*   --main-color
+  --secundary
+  --alternative  
+  --cream */
+
+.header__container {
+  display: flex;
+  padding-top: 8rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__container__div{
+    display: block;
+    padding-right: 9.0rem;
+}
+.header__container__bulb {
+    width: 30rem;
+}
+.title {
+  padding-top: 0;
+}
+.title h1 {
+  font-size: 8rem;
+}
+.title h2 {
+  font-size: 6.5rem;
+}
+.tittle span{
+    font-size: 2.4rem;
+}
