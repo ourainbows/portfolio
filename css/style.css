@@ -272,9 +272,9 @@ header {
   align-items: center;
   justify-content: start;
   font-size: 1.8rem;
-  height: 70rem;
-/*   padding-bottom: 50rem; */
-  position: relative;
+  /* height: 70rem; */
+  /* padding-bottom: 50rem; */
+  /* position: relative; */
 }
 .people__p{
     padding: 0 1.6rem;
@@ -300,7 +300,8 @@ header {
   background-size: cover;
 }
 .people__wave {
-  position: absolute;
+  /* position: absolute; */
+  margin-top: 25rem;
   width: 100%;
   bottom: 0;
 }
