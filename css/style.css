@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Adumu";
-  src: url("/assets/fonts/Adumu.ttf");
+  src: url("../assets/fonts/Adumu.ttf");
 }
 
 * {
@@ -21,7 +21,7 @@ html {
 h1,
 h2,
 h3 {
-  font-family: "Adumu";
+  font-family: "Adumu", serif;
 }
 header {
   background-color: var(--main-color);
