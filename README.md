@@ -1,6 +1,7 @@
 # Portfolio
 
-Portfolio is my first portafolio, I build this project with HTML, CSS and JS Vanilla
+Portfolio is my first portfolio, I build this project with HTML, CSS and JS 
+![Portfolio](./assets/Screenshot_293.png "Portfolio")
 
 ## New Portfolio
 
